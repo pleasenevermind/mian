@@ -1,0 +1,11 @@
+.service-main{
+    position: relative;
+    min-height: 100vh;
+    background-color: #a0c9c3;
+}
+.sm-spacing{
+    margin: 0px 10vw 0px 10vw;
+}
+.hideform{
+    display: none;
+}

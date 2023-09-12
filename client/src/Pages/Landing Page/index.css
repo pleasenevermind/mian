@@ -1,0 +1,16 @@
+.lp-spacing{
+    margin: 0px 10vw 0px 10vw;
+}
+.lp-main{
+    position: relative;
+    overflow: hidden;
+    background-color: #cae3e8;
+    color :black
+}
+
+@media only screen and (max-width: 414px) {
+    .lp-spacing{
+        margin: 0px 1vw 0px 1vw;
+    }
+    
+}

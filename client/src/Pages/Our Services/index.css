@@ -1,0 +1,69 @@
+.os{
+    min-height: 100vh;
+    background-color: #a0c9c3;
+    /* background-image: repeating-linear-gradient(to bottom, rgb(82, 82, 82), rgb(66, 66, 66) 20vh, rgb(128, 128, 128), rgb(102, 102, 102)); */
+}
+.os-spacing{
+    margin: 0px 10vw 0px 10vw;
+    border: 1px solid white ;
+    background-color: transparent;
+    padding: 50px 100px 150px 100px;
+    border-radius: 50px;
+    height: 0;
+    transition: height 1s ease-in-out;
+    overflow: hidden;
+}
+.os-spacing.show {
+    height: auto;
+}
+.os-head{
+    font-size: 2vw;
+    font-weight: 600;
+    margin: 0;
+    color: white;
+}
+.os-head-des{
+    font-size: 1.1vw;
+    font-weight: 300;
+    margin: 0;
+    color: white;
+}
+.os-title{
+    font-size: 1.6vw;
+    font-weight: 600;
+    margin: 0;
+    color: white;
+}
+.os-des{
+    font-size: 1.1vw;
+    font-weight: 300;
+    margin: 0;
+    color: white;
+}
+.os-service-container{
+    text-align: justify;
+}
+@media only screen and (max-width: 414px) {
+    .os-spacing{
+        margin: 0px 5vw 0px 5vw;
+        padding: 50px 10px 50px 10px;
+    }
+    .os-head{
+        font-size: 5vw;
+    }
+    .ob-branches-title{
+        font-size: 5vw;
+    }
+    .os-head-des{
+        font-size: 3.5vw;
+    }
+    .os-title{
+        font-size: 5vw;
+    }
+    .os-des{
+        font-size: 3.5vw;
+    }
+    .os-spacing.show {
+        height: 270vh;
+    }
+}

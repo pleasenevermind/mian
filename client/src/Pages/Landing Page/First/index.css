@@ -1,0 +1,62 @@
+.lp{
+    border-radius: 0px;
+    background-color: white;
+    padding-bottom: 50px;
+    /* border-bottom: 1px solid black; */
+    /* background-image: repeating-linear-gradient(to bottom, #cbfff7 , #ffffff,#a0c9c3  ); */
+}
+@keyframes slide-in {
+    0% {
+        right: -50%;
+        /* Start position outside the container */
+    }
+
+    100% {
+        right: 5vw;
+        /* End position at the original position */
+    }
+}
+
+.lp-head {
+    margin-top: 0px;
+    /* margin-left: 33vw; */
+    margin: 0px 5vw;
+    font-size: 3.2rem;
+    color: black;
+}
+.lp-first{
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    
+}
+.lp-f-head{
+    color: white;
+    font-weight: 500;
+    font-size: 2.3rem;
+    font-style: italic;
+    margin-top: 12vh;
+}
+.lp-f-btn{
+    position:absolute;
+    z-index: 111111;
+    top:80%;
+    left:12%;
+    background-color: #163137;
+    border: 1px solid #163137;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.0);
+    transition: background-color 0.1s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+}
+.fa-arrow-right{
+    margin-left: 10px;
+}
+.lp-f-btn:hover{
+    background-color: #5ab7c9;
+    color:white;
+    transform: scale(1.1);
+}

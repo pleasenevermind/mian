@@ -1,0 +1,48 @@
+.ob{
+    min-height: 100vh;
+    background-color: #a0c9c3;
+    padding-top: 12vh;
+    /* background-image: repeating-linear-gradient(to bottom, rgb(82, 82, 82), rgb(66, 66, 66) 20vh, rgb(128, 128, 128), rgb(102, 102, 102)); */
+}
+.ob-spacing{
+    margin: 0px 10vw 0px 10vw;
+    border: 1px solid white ;
+    background-color: transparent;
+    padding: 50px 100px 50px 100px;
+    border-radius: 50px;
+    height: 0;
+    transition: height 1s ease-in-out;
+    overflow: hidden;
+}
+.ob-spacing.show {
+    height: auto;
+}
+.ob-head{
+    font-size: 2vw;
+    font-weight: 600;
+    margin: 0;
+    color: white;
+}
+.ob-address{
+    color: white;
+    font-size: 1vw;
+}
+.ob-branches-title{
+    font-size: 1.6vw;
+    color: white;
+}
+@media only screen and (max-width: 414px) {
+    .ob-spacing{
+        margin: 0px 5vw 0px 5vw;
+        padding: 50px 10px 50px 10px;
+    }
+    .ob-head{
+        font-size: 5vw;
+    }
+    .ob-branches-title{
+        font-size: 5vw;
+    }
+    .ob-address{
+        font-size: 3.5vw;
+    }
+}

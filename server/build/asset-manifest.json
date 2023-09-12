@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.119cb20d.css",
+    "main.js": "/static/js/main.48c7a18c.js",
+    "static/media/wedding.jpg": "/static/media/wedding.ced8a6da368d4a2f3223.jpg",
+    "static/media/business1.jpg": "/static/media/business1.8b2e8faaef5a994cb33d.jpg",
+    "static/media/main_vid.mp4": "/static/media/main_vid.9e65d8120a6987eb4523.mp4",
+    "static/media/standard.jpg": "/static/media/standard.571f09d080000811a938.jpg",
+    "static/media/elite.jpg": "/static/media/elite.4d07db05b56182aeb863.jpg",
+    "static/media/rental.jpg": "/static/media/rental.05a4f0b8b8141172406f.jpg",
+    "static/media/logo.png": "/static/media/logo.704c40601ed8c77fcc8d.png",
+    "static/media/flight.jpg": "/static/media/flight.1f07f175e9b73ab6170d.jpg",
+    "static/media/lp-back4.png": "/static/media/lp-back4.c6b2851f91f180b8ad6b.png",
+    "static/media/luxury.jpg": "/static/media/luxury.2e9fd34e71c0be6f51a9.jpg",
+    "static/media/gds.png": "/static/media/gds.d722ec9851cc3c29dc81.png",
+    "static/media/paint.png": "/static/media/paint.4af5d669db2dae01618d.png",
+    "index.html": "/index.html",
+    "main.119cb20d.css.map": "/static/css/main.119cb20d.css.map",
+    "main.48c7a18c.js.map": "/static/js/main.48c7a18c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.119cb20d.css",
+    "static/js/main.48c7a18c.js"
+  ]
+}

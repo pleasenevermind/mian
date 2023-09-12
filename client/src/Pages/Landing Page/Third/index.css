@@ -1,0 +1,16 @@
+.lp-third-head{
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+}
+
+.lp-third-container{
+    display: grid;
+    grid-template-columns: 27vw 27vw 27vw;
+}
+@media only screen and (max-width: 414px) {
+    .lp-third-container{
+        display: grid;
+        grid-template-columns: 49vw 49vw;
+    }
+}

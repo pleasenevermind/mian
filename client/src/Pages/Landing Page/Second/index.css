@@ -1,0 +1,21 @@
+.lp-sec-head{
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+}
+
+.lp-sec-container{
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+}
+@media only screen and (max-width: 414px) {
+    .lp-sec-head{
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: white;
+    }
+    .lp-sec-container{
+        display: grid;
+        grid-template-columns: 49vw 49vw;
+    }
+}
